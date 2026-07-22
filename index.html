@@ -1,4 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Nomo: ten people a day, sealed until you talk</title>
+<meta name="description" content="Ten people a day, chosen by AI and ranked by your vibe. You know their minds, not their faces. One hour to talk. Two reveals. Join the waitlist.">
+<meta property="og:title" content="Nomo — ten people a day, sealed until you talk">
+<meta property="og:description" content="No more fake connections. No more talk that goes nowhere.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://jayj221.github.io/nomo-waitlist/">
+<meta name="twitter:card" content="summary_large_image">
+<style>html,body{margin:0;padding:0;background:#0a0b0d}</style>
+</head>
+<body>
 <style>
   /* ── Nomo — concept + waitlist ───────────────────────────────────
      Committed dark identity (the product is entirely dark by design).
@@ -277,6 +291,20 @@
   .foot-row { display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
   .foot-brand { font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.28em; text-transform: uppercase; color: var(--ink-3); }
   .foot-note { font-size: 0.8rem; color: var(--ink-3); }
+
+  /* Mobile: fuller width, and a bigger interactive card */
+  @media (max-width: 640px) {
+    .wrap { padding: 0 18px; }
+    .demo { padding: 22px 16px; border-radius: 14px; margin-top: 30px; }
+    .demo-stage { min-height: 220px; padding: 24px 2px; }
+    .stage-a { font-size: 1.22rem; }
+    .stage-caption { font-size: 1.02rem; }
+    .stage-name { font-size: 1.45rem; }
+    .pfp { width: 100px; height: 100px; }
+    .cohort-row { font-size: 0.94rem; }
+    .cohort { gap: 8px 14px; }
+    .demo-label { font-size: 0.72rem; }
+  }
 
   @media (prefers-reduced-motion: reduce) {
     .fx { opacity: 1; transform: none; transition: none; }
@@ -767,3 +795,6 @@
     render();
   })();
 </script>
+
+</body>
+</html>
